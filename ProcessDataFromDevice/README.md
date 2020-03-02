@@ -1,3 +1,4 @@
+    Hello everyone!))
     At the very beginning of the task, it was known that the correct data transmitted by the device has the format
     that is presented in this file: "data_struct.txt";     
     
@@ -14,3 +15,4 @@
     
     We will display table data using the model/view architecture, the QTableView and QAbstractTableModel classes
     will be used for this purpose;
+    Bye!))
