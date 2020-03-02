@@ -1,15 +1,4 @@
-At the very beginning of the task, it was known that the correct data transmitted by the device has this format:
-struct {
-            uint16_t header; //Заголовок, всегда равен 9887 (п.осн. 10)
-            uint32_t id;     //id измерения
-            uint64_t time_create; //время измерения
-            uint8_t status_hardware; //статусное слово состояния аппаратной части
-            uint8_t status_in_out;
-            uint8_t status_device;
-            uint8_t reserved;
-            float data[21]; //данные от датчиков
-            uint16_t crc;   //CRC16
-    } data_struct;
+    At the very beginning of the task, it was known that the correct data transmitted by the device has the format that is presented in       this file: "data_struct.txt";
     
     A binary file was proposed as a serial port dump file "data_hex".
     
