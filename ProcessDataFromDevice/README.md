@@ -1,4 +1,5 @@
-    At the very beginning of the task, it was known that the correct data transmitted by the device has the format that is presented in       this file: "data_struct.txt";
+    At the very beginning of the task, it was known that the correct data transmitted by the device has the format
+    that is presented in this file: "data_struct.txt";     
     
     A binary file was proposed as a serial port dump file "data_hex".
     
