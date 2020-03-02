@@ -1,0 +1,12 @@
+    struct {
+            uint16_t header; //всегда равен 9887
+            uint32_t id;     //id измерения
+            uint64_t time_create; //время измерения
+            uint8_t status_hardware; //статусное слово состояния аппаратной части
+            uint8_t status_in_out;
+            uint8_t status_device;
+            uint8_t reserved;
+            float data[21]; //данные от датчиков
+            uint16_t crc;   //CRC16
+    } data_struct;
+        
