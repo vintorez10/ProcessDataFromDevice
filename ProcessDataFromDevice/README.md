@@ -13,6 +13,7 @@
     The size of the packages was determined by aligning the fields of the "data_struct" structure 
     and the preprocessor Directive "#Pragma pack" (https://habr.com/ru/post/142662/);
     
-    We will display table data using the model/view architecture, the QTableView and QAbstractTableModel classes
-    will be used for this purpose;
-    Bye!))
+    We will display table data using the model / view architecture, 
+    the QTableView and QAbstractTableModel classes were used for this purpose;
+   
+   Bye!))
